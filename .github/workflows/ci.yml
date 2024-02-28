@@ -37,4 +37,4 @@ jobs:
       - name: Run markdown lint
         run: |
           npm install remark-cli remark-preset-lint-consistent
-          npx remark . --use remark-preset-lint-consistent --frail --stringify-emphasis-marker=_
+          npx remark . --use remark-preset-lint-consistent --frail --remark-lint-emphasis-marker='_'
